@@ -1,0 +1,171 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(209, 204, 204, 0.617);
+}
+
+form {
+  height: 55%;
+  width: 20%;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px 2px white;
+  padding: 20px;
+
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.box {
+  height: 25%;
+  width: 100%;
+  display: flex;
+
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+h1 {
+  height: 12%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+}
+
+label {
+  font-size: 0.8em;
+  /* color: green; */
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: rgba(28, 28, 28, 0.679);
+}
+
+.star {
+  color: red;
+}
+
+input {
+  border: none;
+  border: 2px solid lightgray;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  padding: 3px;
+  height: 30%;
+  width: 100%;
+}
+
+p {
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.5em;
+  font-weight: bold;
+  align-self: flex-end;
+  display: none;
+}
+
+button {
+  height: 8%;
+  width: 30%;
+  background-color: rgb(9, 164, 9);
+  border-radius: 3px;
+  color: white;
+  border: none;
+  font-size: 0.7em;
+}
+
+.err-msg {
+  height: 10%;
+  width: 100%;
+  align-content: center;
+  color: black;
+  font-size: 0.7rem;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 921px) {
+  form {
+    height: 50%;
+    width: 80%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px 2px white;
+    padding: 20px;
+
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .box {
+    height: 25%;
+    width: 100%;
+    display: flex;
+
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+
+  h1 {
+    height: 12%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+  }
+
+  label {
+    font-size: 1rem;
+    /* color: green; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgba(28, 28, 28, 0.679);
+  }
+
+  input {
+    border: none;
+    border: 2px solid lightgray;
+    border-radius: 4px;
+    font-size: 1rem;
+    padding: 3px;
+    height: 30%;
+    width: 100%;
+  }
+
+  p {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    font-weight: bold;
+
+    display: none;
+  }
+
+  button {
+    height: 8%;
+    width: 30%;
+    background-color: rgb(9, 164, 9);
+    border-radius: 3px;
+    color: white;
+    border: none;
+    font-size: 0.9rem;
+  }
+
+  .err-msg {
+    height: 10%;
+    width: 100%;
+    align-content: center;
+    color: black;
+    font-size: 0.7rem;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}
